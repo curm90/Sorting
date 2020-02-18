@@ -10,12 +10,10 @@ def selection_sort(arr):
 
         # Swap elements
         arr[cur_index], arr[smallest_index] = arr[smallest_index], arr[cur_index]
-
     return arr
 
+
 # Bubble sort
-
-
 def bubble_sort(arr):
     swapped = True
     while swapped:
